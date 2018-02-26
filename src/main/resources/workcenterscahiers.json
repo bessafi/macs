@@ -1,0 +1,85 @@
+{
+"workCenters": [
+{
+"id": 1624,
+"title": "1041/AGC320",
+"source": null,
+"isCSD": false,
+"parts": [],
+"cahiers": [],
+"jalons": [
+{
+"id": 1721,
+"title": "Default",
+"cahiers": []
+}
+],
+"number": null
+},
+{
+"id": 1625,
+"title": "1041/AMG110",
+"source": null,
+"isCSD": true,
+"parts": [],
+"cahiers": [],
+"jalons": [
+{
+"id": 1722,
+"title": "AS_3219_065_PREP_FINITION2",
+"cahiers": []
+}
+],
+"number": null
+},
+{
+"id": 1626,
+"title": "1041/AFTWARD",
+"source": null,
+"isCSD": false,
+"parts": [],
+"cahiers": [],
+"jalons": [
+{
+"id": 1723,
+"title": "Default",
+"cahiers": []
+}
+],
+"number": null
+},
+{
+"id": 1627,
+"title": "1041/AGC310A",
+"source": null,
+"isCSD": false,
+"parts": [],
+"cahiers": [],
+"jalons": [
+{
+"id": 1724,
+"title": "Default",
+"cahiers": []
+}
+],
+"number": null
+},
+{
+"id": 1628,
+"title": "1041/AGC300BA",
+"source": null,
+"isCSD": false,
+"parts": [],
+"cahiers": [],
+"jalons": [
+{
+"id": 1725,
+"title": "Default",
+"cahiers": []
+}
+],
+"number": null
+}
+],
+"cahiers": []
+}

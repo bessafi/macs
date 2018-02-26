@@ -1,0 +1,9419 @@
+[
+{
+"id": "Jw8hRCGt4UUheph8wXIm0W",
+"number": "RAL-BM700-S1045",
+"qty": 1,
+"string": null,
+"description": "ECS - MASTER RAL - PROJECT SPECIFIC",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/88942"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/88942"
+}
+},
+"partType": "3278",
+"parent": null,
+"authority": "RV-505-983"
+},
+{
+"id": "JwaWjiGt4UUheph8wXIm0W",
+"number": "RAL-BP700-S1045",
+"qty": 1,
+"string": null,
+"description": "ECS-PRODUCT LEVEL-CABINETS AND BULKHEADS",
+"drawing": "RAL-BP700-S1045",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/88945"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": null
+}
+},
+"partType": "3278",
+"parent": "Jw8hRCGt4UUheph8wXIm0W",
+"authority": null
+},
+{
+"id": "K9VkCCGt4UUheph8wXIm0W",
+"number": "G25028846-001[--]",
+"qty": 1,
+"string": "1050031-E001-D48-C03-SH",
+"description": "TABLE ASSY, DADO MOUNTED",
+"drawing": "G25028846",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90703"
+},
+"string": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/1050031-E001-D48-C03-SH"
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90703"
+}
+},
+"partType": "4750",
+"parent": "JwaWjiGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "K9gawiGt4UUheph8wXIm0W",
+"number": "G05250378-001[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/67533"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/67533"
+}
+},
+"partType": "2096",
+"parent": "K9VkCCGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "K9rLHiGt4UUheph8wXIm0W",
+"number": "G05250378-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/68145"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/68145"
+}
+},
+"partType": "1950",
+"parent": "K9gawiGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "K9}QUCGt4UUheph8wXIm0W",
+"number": "G05250378-001SP02[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/68146"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/68146"
+}
+},
+"partType": "1950",
+"parent": "K9gawiGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "KA9XbCGt4UUheph8wXIm0W",
+"number": "G25028848-001[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING INSTL, SQ, NO INLAY",
+"drawing": "G25028848",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90705"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90705"
+}
+},
+"partType": "1949",
+"parent": "K9VkCCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "KAgWSCGt4UUheph8wXIm0W",
+"number": "G25028609-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89912"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89912"
+}
+},
+"partType": "3493",
+"parent": "KA9XbCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "KAJcHCGt4UUheph8wXIm0W",
+"number": "G25031676-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99174"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99174"
+}
+},
+"partType": "3493",
+"parent": "KA9XbCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "KAsSlCGt4UUheph8wXIm0W",
+"number": "G25031675-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99173"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99173"
+}
+},
+"partType": "3493",
+"parent": "KA9XbCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "KAUQpiGt4UUheph8wXIm0W",
+"number": "G25031675-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99173"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99173"
+}
+},
+"partType": "3493",
+"parent": "KA9XbCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "KB0f{iGt4UUheph8wXIm0W",
+"number": "G25028609-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89912"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89912"
+}
+},
+"partType": "3493",
+"parent": "KA9XbCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "KBB8kCGt4UUheph8wXIm0W",
+"number": "G25028848-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25028848",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/96694"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/96694"
+}
+},
+"partType": "1950",
+"parent": "KA9XbCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "LaLX7iGt4UUheph8wXIm0W",
+"number": "G25028849-001[--]",
+"qty": 1,
+"string": "1060041-E001-D49",
+"description": "TABLE ASSY, CONFERENCE TABLE, ANGLED LH",
+"drawing": "G25028849",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90706"
+},
+"string": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/1060041-E001-D49"
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90706"
+}
+},
+"partType": "4750",
+"parent": "JwaWjiGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "LaYvLCGt4UUheph8wXIm0W",
+"number": "G25028640-001[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING INSTL, ROUND, NO INLAY",
+"drawing": "G25028640",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89996"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89996"
+}
+},
+"partType": "1949",
+"parent": "LaLX7iGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LammZiGt4UUheph8wXIm0W",
+"number": "G25028640-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25028640",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89997"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89997"
+}
+},
+"partType": "1950",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "La}2WCGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LbCbGiGt4UUheph8wXIm0W",
+"number": "G25028616-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89919"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89919"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LbeLCiGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LbQrNiGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "Lbrp9iGt4UUheph8wXIm0W",
+"number": "G25028613-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89916"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89916"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "Lc3heCGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LcHiTiGt4UUheph8wXIm0W",
+"number": "G25028614-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89917"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89917"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LcmbnCGt4UUheph8wXIm0W",
+"number": "G25028612-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89915"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89915"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LcWWZCGt4UUheph8wXIm0W",
+"number": "G25028615-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89918"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89918"
+}
+},
+"partType": "3493",
+"parent": "LaYvLCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "Ld0nUCGt4UUheph8wXIm0W",
+"number": "G05250323-001[-A]",
+"qty": 1,
+"string": null,
+"description": "PANEL, ANGLED TABLE",
+"drawing": "G05250323",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/88808"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/88808"
+}
+},
+"partType": "2096",
+"parent": "LaLX7iGt4UUheph8wXIm0W",
+"authority": "RV-505-393"
+},
+{
+"id": "LdHUJCGt4UUheph8wXIm0W",
+"number": "G05250323-001SP02[-A]",
+"qty": 1,
+"string": null,
+"description": "PANEL, ANGLED TABLE",
+"drawing": "G05250323",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/91219"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/91219"
+}
+},
+"partType": "1950",
+"parent": "Ld0nUCGt4UUheph8wXIm0W",
+"authority": "RV-505-393"
+},
+{
+"id": "LdWlkCGt4UUheph8wXIm0W",
+"number": "G05250323-001SP01[-A]",
+"qty": 1,
+"string": null,
+"description": "PANEL, ANGLED TABLE",
+"drawing": "G05250323",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/91218"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/91218"
+}
+},
+"partType": "1950",
+"parent": "Ld0nUCGt4UUheph8wXIm0W",
+"authority": "RV-505-393"
+},
+{
+"id": "Ldlv6CGt4UUheph8wXIm0W",
+"number": "G25024826-001[--]",
+"qty": 1,
+"string": null,
+"description": "ARM INSTL, SWIVEL, LHS",
+"drawing": "G25024826",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77664"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77664"
+}
+},
+"partType": "1949",
+"parent": "LaLX7iGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "Ld}9niGt4UUheph8wXIm0W",
+"number": "G25024828-001[--]",
+"qty": 1,
+"string": null,
+"description": "ARM ASSY, SWIVEL, LHS, AFT",
+"drawing": "G25024828",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77666"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77666"
+}
+},
+"partType": "1949",
+"parent": "Ldlv6CGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LeC{vCGt4UUheph8wXIm0W",
+"number": "G25024832-101[--]",
+"qty": 1,
+"string": null,
+"description": "COVER, HIGH FRICTION DISC",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77670"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77670"
+}
+},
+"partType": "3493",
+"parent": "Ld}9niGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "Lefu7CGt4UUheph8wXIm0W",
+"number": "G25024831-101[--]",
+"qty": 1,
+"string": null,
+"description": "MAGNET",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77669"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77669"
+}
+},
+"partType": "3493",
+"parent": "Ld}9niGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LeQjciGt4UUheph8wXIm0W",
+"number": "G25024828-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024828",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77677"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77677"
+}
+},
+"partType": "1950",
+"parent": "Ld}9niGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "Letw{iGt4UUheph8wXIm0W",
+"number": "G25024833-101[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK, SWIVEL ARM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77671"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77671"
+}
+},
+"partType": "3493",
+"parent": "Ld}9niGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "Lf6TzCGt4UUheph8wXIm0W",
+"number": "G25024827-001[--]",
+"qty": 1,
+"string": null,
+"description": "ARM ASSY, SWIVEL, LHS, FWD",
+"drawing": "G25024827",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77665"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77665"
+}
+},
+"partType": "1949",
+"parent": "Ldlv6CGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LfK}SiGt4UUheph8wXIm0W",
+"number": "G25024829-101[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK, SWIVEL ARM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77667"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77667"
+}
+},
+"partType": "3493",
+"parent": "Lf6TzCGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LflvSCGt4UUheph8wXIm0W",
+"number": "G25024831-101[--]",
+"qty": 1,
+"string": null,
+"description": "MAGNET",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77669"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77669"
+}
+},
+"partType": "3493",
+"parent": "Lf6TzCGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LfYbmiGt4UUheph8wXIm0W",
+"number": "G25024827-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024827",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77676"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77676"
+}
+},
+"partType": "1950",
+"parent": "Lf6TzCGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "Lf{70iGt4UUheph8wXIm0W",
+"number": "G25024832-101[--]",
+"qty": 1,
+"string": null,
+"description": "COVER, HIGH FRICTION DISC",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77670"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77670"
+}
+},
+"partType": "3493",
+"parent": "Lf6TzCGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LgBoUiGt4UUheph8wXIm0W",
+"number": "G25024826-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024826",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/78302"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/78302"
+}
+},
+"partType": "1950",
+"parent": "Ldlv6CGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LgeQviGt4UUheph8wXIm0W",
+"number": "G25024830-101[--]",
+"qty": 1,
+"string": null,
+"description": "SHIM, LAMINATED",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77668"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77668"
+}
+},
+"partType": "3493",
+"parent": "Ldlv6CGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LgQrSiGt4UUheph8wXIm0W",
+"number": "G25025956-101[--]",
+"qty": 1,
+"string": null,
+"description": "SHIM, LAMINATED",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/81668"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/81668"
+}
+},
+"partType": "3493",
+"parent": "Ldlv6CGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LgsetCGt4UUheph8wXIm0W",
+"number": "G25017055-005[--]",
+"qty": 1,
+"string": null,
+"description": "GUARD INSTL, SHIN GUARD",
+"drawing": "G25017055",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/103319"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/103319"
+}
+},
+"partType": "1949",
+"parent": "LaLX7iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Lh2V6iGt4UUheph8wXIm0W",
+"number": "G25017060-003[--]",
+"qty": 1,
+"string": null,
+"description": "GUARD ASSY, SHIN GUARD",
+"drawing": "G25017060",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77316"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77316"
+}
+},
+"partType": "1949",
+"parent": "LgsetCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LhCTiiGt4UUheph8wXIm0W",
+"number": "G25024747-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024747",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77374"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77374"
+}
+},
+"partType": "1949",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LhfrHCGt4UUheph8wXIm0W",
+"number": "G25024746-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77373"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77373"
+}
+},
+"partType": "3493",
+"parent": "LhCTiiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LhRdiiGt4UUheph8wXIm0W",
+"number": "G25024747-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024747",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77375"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77375"
+}
+},
+"partType": "1950",
+"parent": "LhCTiiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "LhslmCGt4UUheph8wXIm0W",
+"number": "G25024785-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77523"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77523"
+}
+},
+"partType": "3493",
+"parent": "LhCTiiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Li1mNCGt4UUheph8wXIm0W",
+"number": "G25024786-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77524"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77524"
+}
+},
+"partType": "3493",
+"parent": "LhCTiiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LiG2EiGt4UUheph8wXIm0W",
+"number": "G25024747-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024747",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77374"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77374"
+}
+},
+"partType": "1949",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LikufCGt4UUheph8wXIm0W",
+"number": "G25024746-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77373"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77373"
+}
+},
+"partType": "3493",
+"parent": "LiG2EiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LiuxYCGt4UUheph8wXIm0W",
+"number": "G25024785-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77523"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77523"
+}
+},
+"partType": "3493",
+"parent": "LiG2EiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LiY6SCGt4UUheph8wXIm0W",
+"number": "G25024747-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024747",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77375"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77375"
+}
+},
+"partType": "1950",
+"parent": "LiG2EiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Lj3BPCGt4UUheph8wXIm0W",
+"number": "G25024786-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77524"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77524"
+}
+},
+"partType": "3493",
+"parent": "LiG2EiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LjD7fCGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LjNIOiGt4UUheph8wXIm0W",
+"number": "G25024747-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024747",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77374"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77374"
+}
+},
+"partType": "1949",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LjguaCGt4UUheph8wXIm0W",
+"number": "G25024746-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77373"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77373"
+}
+},
+"partType": "3493",
+"parent": "LjNIOiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Ljr6tCGt4UUheph8wXIm0W",
+"number": "G25024785-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77523"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77523"
+}
+},
+"partType": "3493",
+"parent": "LjNIOiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LjWsOCGt4UUheph8wXIm0W",
+"number": "G25024747-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024747",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77375"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77375"
+}
+},
+"partType": "1950",
+"parent": "LjNIOiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Lj{uaCGt4UUheph8wXIm0W",
+"number": "G25024786-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77524"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77524"
+}
+},
+"partType": "3493",
+"parent": "LjNIOiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Lk8gRCGt4UUheph8wXIm0W",
+"number": "G25017090-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/55558"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/55558"
+}
+},
+"partType": "3493",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "Lkcg{CGt4UUheph8wXIm0W",
+"number": "G25017060-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25017060",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77317"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77317"
+}
+},
+"partType": "1950",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "LkIsBiGt4UUheph8wXIm0W",
+"number": "G25017586-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/56976"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/56976"
+}
+},
+"partType": "3493",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "LkmnTCGt4UUheph8wXIm0W",
+"number": "G25017067-003[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77295"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77295"
+}
+},
+"partType": "3270",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LkwukCGt4UUheph8wXIm0W",
+"number": "G25017067-103[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY, AFT",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77296"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77296"
+}
+},
+"partType": "3493",
+"parent": "LkmnTCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Ll4x1iGt4UUheph8wXIm0W",
+"number": "G25017067-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77297"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77297"
+}
+},
+"partType": "1950",
+"parent": "LkmnTCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LkSlWCGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "Lh2V6iGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LlE{YiGt4UUheph8wXIm0W",
+"number": "G25017055-005SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25017055",
+"revision": "-B",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/103320"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/103320"
+}
+},
+"partType": "1950",
+"parent": "LgsetCGt4UUheph8wXIm0W",
+"authority": "RV-506-810"
+},
+{
+"id": "LlSO2iGt4UUheph8wXIm0W",
+"number": "G25017056-003[--]",
+"qty": 1,
+"string": null,
+"description": "GUARD ASSY, SHIN GUARD",
+"drawing": "G25017056",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77704"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77704"
+}
+},
+"partType": "1949",
+"parent": "LgsetCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LleZnCGt4UUheph8wXIm0W",
+"number": "G25017056-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25017056",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77705"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77705"
+}
+},
+"partType": "1950",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "LloJ0iGt4UUheph8wXIm0W",
+"number": "G25024874-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024874",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77803"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77803"
+}
+},
+"partType": "1949",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Ll}3sCGt4UUheph8wXIm0W",
+"number": "G25024874-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024874",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77804"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77804"
+}
+},
+"partType": "1950",
+"parent": "LloJ0iGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "LmaxICGt4UUheph8wXIm0W",
+"number": "G25024872-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77783"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77783"
+}
+},
+"partType": "3493",
+"parent": "LloJ0iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LmHo8CGt4UUheph8wXIm0W",
+"number": "G25024875-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77805"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77805"
+}
+},
+"partType": "3493",
+"parent": "LloJ0iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LmpcvCGt4UUheph8wXIm0W",
+"number": "G25024877-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77807"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77807"
+}
+},
+"partType": "3493",
+"parent": "LloJ0iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Ln0zYiGt4UUheph8wXIm0W",
+"number": "G25024871-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77780"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77780"
+}
+},
+"partType": "1949",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "LnEELCGt4UUheph8wXIm0W",
+"number": "G25024871-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77781"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77781"
+}
+},
+"partType": "1950",
+"parent": "Ln0zYiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Lnh8VCGt4UUheph8wXIm0W",
+"number": "G25024872-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77783"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77783"
+}
+},
+"partType": "3493",
+"parent": "Ln0zYiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LnRQqiGt4UUheph8wXIm0W",
+"number": "G25024873-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77784"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77784"
+}
+},
+"partType": "3493",
+"parent": "Ln0zYiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LnxTNiGt4UUheph8wXIm0W",
+"number": "G25024877-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77807"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77807"
+}
+},
+"partType": "3493",
+"parent": "Ln0zYiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LoDuliGt4UUheph8wXIm0W",
+"number": "G25024871-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77780"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77780"
+}
+},
+"partType": "1949",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Loj5gCGt4UUheph8wXIm0W",
+"number": "G25024873-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77784"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77784"
+}
+},
+"partType": "3493",
+"parent": "LoDuliGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LoVkJiGt4UUheph8wXIm0W",
+"number": "G25024871-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77781"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77781"
+}
+},
+"partType": "1950",
+"parent": "LoDuliGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "LowyGiGt4UUheph8wXIm0W",
+"number": "G25024872-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77783"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77783"
+}
+},
+"partType": "3493",
+"parent": "LoDuliGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Lp87diGt4UUheph8wXIm0W",
+"number": "G25024877-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77807"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77807"
+}
+},
+"partType": "3493",
+"parent": "LoDuliGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LpLaoiGt4UUheph8wXIm0W",
+"number": "G25017057-003[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77712"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77712"
+}
+},
+"partType": "3270",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LplxHiGt4UUheph8wXIm0W",
+"number": "G25017057-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77714"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77714"
+}
+},
+"partType": "1950",
+"parent": "LpLaoiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LpYrMCGt4UUheph8wXIm0W",
+"number": "G25017057-103[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY, FWD",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77713"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77713"
+}
+},
+"partType": "3493",
+"parent": "LpLaoiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Lpzf8CGt4UUheph8wXIm0W",
+"number": "G25016892-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/54900"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/54900"
+}
+},
+"partType": "3493",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "LqcmECGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LqCThiGt4UUheph8wXIm0W",
+"number": "G25016891-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/54899"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/54899"
+}
+},
+"partType": "3493",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "LqPe1iGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "LlSO2iGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LraGeCGt4UUheph8wXIm0W",
+"number": "G25028851-001[--]",
+"qty": 1,
+"string": "1060041-E001-D49",
+"description": "TABLE ASSY, CONFERENCE TABLE, ANGLED RH",
+"drawing": "G25028851",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90708"
+},
+"string": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/1060041-E001-D49"
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90708"
+}
+},
+"partType": "4750",
+"parent": "JwaWjiGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "LrncTCGt4UUheph8wXIm0W",
+"number": "G25024835-001[--]",
+"qty": 1,
+"string": null,
+"description": "ARM INSTL, SWIVEL, RHS",
+"drawing": "G25024835",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77673"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77673"
+}
+},
+"partType": "1949",
+"parent": "LraGeCGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "Lr{hpCGt4UUheph8wXIm0W",
+"number": "G25024835-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024835",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/78303"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/78303"
+}
+},
+"partType": "1950",
+"parent": "LrncTCGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LsBvEiGt4UUheph8wXIm0W",
+"number": "G25025956-101[--]",
+"qty": 1,
+"string": null,
+"description": "SHIM, LAMINATED",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/81668"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/81668"
+}
+},
+"partType": "3493",
+"parent": "LrncTCGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LscCgiGt4UUheph8wXIm0W",
+"number": "G25024837-001[--]",
+"qty": 1,
+"string": null,
+"description": "ARM ASSY, SWIVEL, RHS, AFT",
+"drawing": "G25024837",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77675"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77675"
+}
+},
+"partType": "1949",
+"parent": "LrncTCGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LspJQiGt4UUheph8wXIm0W",
+"number": "G25024832-101[--]",
+"qty": 1,
+"string": null,
+"description": "COVER, HIGH FRICTION DISC",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77670"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77670"
+}
+},
+"partType": "3493",
+"parent": "LscCgiGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "Lt0RQiGt4UUheph8wXIm0W",
+"number": "G25024837-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024837",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/78213"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/78213"
+}
+},
+"partType": "1950",
+"parent": "LscCgiGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LtDiZiGt4UUheph8wXIm0W",
+"number": "G25024829-101[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK, SWIVEL ARM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77667"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77667"
+}
+},
+"partType": "3493",
+"parent": "LscCgiGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LtR8DCGt4UUheph8wXIm0W",
+"number": "G25024831-101[--]",
+"qty": 1,
+"string": null,
+"description": "MAGNET",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77669"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77669"
+}
+},
+"partType": "3493",
+"parent": "LscCgiGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LsO}oCGt4UUheph8wXIm0W",
+"number": "G25024830-101[--]",
+"qty": 1,
+"string": null,
+"description": "SHIM, LAMINATED",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77668"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77668"
+}
+},
+"partType": "3493",
+"parent": "LrncTCGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "Lte7QiGt4UUheph8wXIm0W",
+"number": "G25024836-001[--]",
+"qty": 1,
+"string": null,
+"description": "ARM ASSY, SWIVEL, RHS, FWD",
+"drawing": "G25024836",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77674"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77674"
+}
+},
+"partType": "1949",
+"parent": "LrncTCGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LtrODCGt4UUheph8wXIm0W",
+"number": "G25024832-101[--]",
+"qty": 1,
+"string": null,
+"description": "COVER, HIGH FRICTION DISC",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77670"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77670"
+}
+},
+"partType": "3493",
+"parent": "Lte7QiGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "Lu5BBiGt4UUheph8wXIm0W",
+"number": "G25024833-101[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK, SWIVEL ARM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77671"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77671"
+}
+},
+"partType": "3493",
+"parent": "Lte7QiGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LuJKViGt4UUheph8wXIm0W",
+"number": "G25024831-101[--]",
+"qty": 1,
+"string": null,
+"description": "MAGNET",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77669"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77669"
+}
+},
+"partType": "3493",
+"parent": "Lte7QiGt4UUheph8wXIm0W",
+"authority": "RV-503-430"
+},
+{
+"id": "LuWSGiGt4UUheph8wXIm0W",
+"number": "G25024836-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024836",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/78212"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/78212"
+}
+},
+"partType": "1950",
+"parent": "Lte7QiGt4UUheph8wXIm0W",
+"authority": "RV-502-762"
+},
+{
+"id": "LujufiGt4UUheph8wXIm0W",
+"number": "G05250323-001[-A]",
+"qty": 1,
+"string": null,
+"description": "PANEL, ANGLED TABLE",
+"drawing": "G05250323",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/88808"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/88808"
+}
+},
+"partType": "2096",
+"parent": "LraGeCGt4UUheph8wXIm0W",
+"authority": "RV-505-393"
+},
+{
+"id": "Luyx7CGt4UUheph8wXIm0W",
+"number": "G05250323-001SP02[-A]",
+"qty": 1,
+"string": null,
+"description": "PANEL, ANGLED TABLE",
+"drawing": "G05250323",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/91219"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/91219"
+}
+},
+"partType": "1950",
+"parent": "LujufiGt4UUheph8wXIm0W",
+"authority": "RV-505-393"
+},
+{
+"id": "LvAp{iGt4UUheph8wXIm0W",
+"number": "G05250323-001SP01[-A]",
+"qty": 1,
+"string": null,
+"description": "PANEL, ANGLED TABLE",
+"drawing": "G05250323",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/91218"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/91218"
+}
+},
+"partType": "1950",
+"parent": "LujufiGt4UUheph8wXIm0W",
+"authority": "RV-505-393"
+},
+{
+"id": "LvRdBCGt4UUheph8wXIm0W",
+"number": "G25028641-001[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING INSTL, ROUND, NO INLAY",
+"drawing": "G25028641",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89998"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89998"
+}
+},
+"partType": "1949",
+"parent": "LraGeCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LviryiGt4UUheph8wXIm0W",
+"number": "G25028641-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25028641",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89999"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89999"
+}
+},
+"partType": "1950",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "Lvw5VCGt4UUheph8wXIm0W",
+"number": "G25028612-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89915"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89915"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "Lw7HCiGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LwKPUCGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "Lwl1fiGt4UUheph8wXIm0W",
+"number": "G25028613-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89916"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89916"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LwXgQiGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LwzErCGt4UUheph8wXIm0W",
+"number": "G25028614-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89917"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89917"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LxAJviGt4UUheph8wXIm0W",
+"number": "G25028615-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89918"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89918"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "Lxb5OCGt4UUheph8wXIm0W",
+"number": "G25013281-101-XXXX[--]",
+"qty": 1,
+"string": null,
+"description": "CUP, HOLDER, PILLAR TABLE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40642"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40642"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "LxNbMiGt4UUheph8wXIm0W",
+"number": "G25028616-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89919"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89919"
+}
+},
+"partType": "3493",
+"parent": "LvRdBCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "LxoOPCGt4UUheph8wXIm0W",
+"number": "G25017055-005[--]",
+"qty": 1,
+"string": null,
+"description": "GUARD INSTL, SHIN GUARD",
+"drawing": "G25017055",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/103319"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/103319"
+}
+},
+"partType": "1949",
+"parent": "LraGeCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "Lx}TWCGt4UUheph8wXIm0W",
+"number": "G25017060-003[--]",
+"qty": 1,
+"string": null,
+"description": "GUARD ASSY, SHIN GUARD",
+"drawing": "G25017060",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77316"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77316"
+}
+},
+"partType": "1949",
+"parent": "LxoOPCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LyG8LiGt4UUheph8wXIm0W",
+"number": "G25024747-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024747",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77374"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77374"
+}
+},
+"partType": "1949",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LyluBCGt4UUheph8wXIm0W",
+"number": "G25024746-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77373"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77373"
+}
+},
+"partType": "3493",
+"parent": "LyG8LiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LyW57iGt4UUheph8wXIm0W",
+"number": "G25024747-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024747",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77375"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77375"
+}
+},
+"partType": "1950",
+"parent": "LyG8LiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Ly}tECGt4UUheph8wXIm0W",
+"number": "G25024785-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77523"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77523"
+}
+},
+"partType": "3493",
+"parent": "LyG8LiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LzFm6CGt4UUheph8wXIm0W",
+"number": "G25024786-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77524"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77524"
+}
+},
+"partType": "3493",
+"parent": "LyG8LiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LzVdSiGt4UUheph8wXIm0W",
+"number": "G25024747-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024747",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77374"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77374"
+}
+},
+"partType": "1949",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "LzlkWCGt4UUheph8wXIm0W",
+"number": "G25024747-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024747",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77375"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77375"
+}
+},
+"partType": "1950",
+"parent": "LzVdSiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "Lz}aciGt4UUheph8wXIm0W",
+"number": "G25024746-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77373"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77373"
+}
+},
+"partType": "3493",
+"parent": "LzVdSiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "L{GShiGt4UUheph8wXIm0W",
+"number": "G25024785-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77523"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77523"
+}
+},
+"partType": "3493",
+"parent": "LzVdSiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "L{Y}rCGt4UUheph8wXIm0W",
+"number": "G25024786-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77524"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77524"
+}
+},
+"partType": "3493",
+"parent": "LzVdSiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "L{qPMCGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "L}7IpCGt4UUheph8wXIm0W",
+"number": "G25024747-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024747",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77374"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77374"
+}
+},
+"partType": "1949",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "L}gU8CGt4UUheph8wXIm0W",
+"number": "G25024746-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77373"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77373"
+}
+},
+"partType": "3493",
+"parent": "L}7IpCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "L}QdcCGt4UUheph8wXIm0W",
+"number": "G25024747-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024747",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77375"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77375"
+}
+},
+"partType": "1950",
+"parent": "L}7IpCGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "L}wLDCGt4UUheph8wXIm0W",
+"number": "G25024785-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77523"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77523"
+}
+},
+"partType": "3493",
+"parent": "L}7IpCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M08ddiGt4UUheph8wXIm0W",
+"number": "G25024786-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77524"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77524"
+}
+},
+"partType": "3493",
+"parent": "L}7IpCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M0LuhiGt4UUheph8wXIm0W",
+"number": "G25017090-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/55558"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/55558"
+}
+},
+"partType": "3493",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "M0mNciGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "M0Z4biGt4UUheph8wXIm0W",
+"number": "G25017586-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/56976"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/56976"
+}
+},
+"partType": "3493",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "M0zYdCGt4UUheph8wXIm0W",
+"number": "G25017060-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25017060",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77317"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77317"
+}
+},
+"partType": "1950",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "M1AZ4iGt4UUheph8wXIm0W",
+"number": "G25017067-003[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77295"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77295"
+}
+},
+"partType": "3270",
+"parent": "Lx}TWCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M1almCGt4UUheph8wXIm0W",
+"number": "G25017067-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77297"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77297"
+}
+},
+"partType": "1950",
+"parent": "M1AZ4iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M1NbVCGt4UUheph8wXIm0W",
+"number": "G25017067-103[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY, AFT",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77296"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77296"
+}
+},
+"partType": "3493",
+"parent": "M1AZ4iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M1o8giGt4UUheph8wXIm0W",
+"number": "G25017055-005SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25017055",
+"revision": "-B",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/103320"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/103320"
+}
+},
+"partType": "1950",
+"parent": "LxoOPCGt4UUheph8wXIm0W",
+"authority": "RV-506-810"
+},
+{
+"id": "M1}O3CGt4UUheph8wXIm0W",
+"number": "G25017056-003[--]",
+"qty": 1,
+"string": null,
+"description": "GUARD ASSY, SHIN GUARD",
+"drawing": "G25017056",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77704"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77704"
+}
+},
+"partType": "1949",
+"parent": "LxoOPCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M2DllCGt4UUheph8wXIm0W",
+"number": "G25017056-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25017056",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77705"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77705"
+}
+},
+"partType": "1950",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "M2RApCGt4UUheph8wXIm0W",
+"number": "G25024874-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024874",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77803"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77803"
+}
+},
+"partType": "1949",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "M2hIFiGt4UUheph8wXIm0W",
+"number": "G25024874-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024874",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77804"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77804"
+}
+},
+"partType": "1950",
+"parent": "M2RApCGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "M2wDhCGt4UUheph8wXIm0W",
+"number": "G25024875-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77805"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77805"
+}
+},
+"partType": "3493",
+"parent": "M2RApCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M37qpiGt4UUheph8wXIm0W",
+"number": "G25024872-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77783"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77783"
+}
+},
+"partType": "3493",
+"parent": "M2RApCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M3S2ICGt4UUheph8wXIm0W",
+"number": "G25024877-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77807"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77807"
+}
+},
+"partType": "3493",
+"parent": "M2RApCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M3ktwCGt4UUheph8wXIm0W",
+"number": "G25024871-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77780"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77780"
+}
+},
+"partType": "1949",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "M420yiGt4UUheph8wXIm0W",
+"number": "G25024871-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77781"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77781"
+}
+},
+"partType": "1950",
+"parent": "M3ktwCGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "M4dPXiGt4UUheph8wXIm0W",
+"number": "G25024872-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77783"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77783"
+}
+},
+"partType": "3493",
+"parent": "M3ktwCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M4Jp4iGt4UUheph8wXIm0W",
+"number": "G25024873-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77784"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77784"
+}
+},
+"partType": "3493",
+"parent": "M3ktwCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M4uVUCGt4UUheph8wXIm0W",
+"number": "G25024877-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77807"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77807"
+}
+},
+"partType": "3493",
+"parent": "M3ktwCGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M59QeiGt4UUheph8wXIm0W",
+"number": "G25024871-001[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE ASSY",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77780"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77780"
+}
+},
+"partType": "1949",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "M5fxBiGt4UUheph8wXIm0W",
+"number": "G25024873-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77784"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77784"
+}
+},
+"partType": "3493",
+"parent": "M59QeiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M5P7jiGt4UUheph8wXIm0W",
+"number": "G25024871-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25024871",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77781"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77781"
+}
+},
+"partType": "1950",
+"parent": "M59QeiGt4UUheph8wXIm0W",
+"authority": "RV-505-734"
+},
+{
+"id": "M5vWhiGt4UUheph8wXIm0W",
+"number": "G25024872-101[--]",
+"qty": 1,
+"string": null,
+"description": "HINGE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77783"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77783"
+}
+},
+"partType": "3493",
+"parent": "M59QeiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M67AACGt4UUheph8wXIm0W",
+"number": "G25024877-101[--]",
+"qty": 1,
+"string": null,
+"description": "PIN",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77807"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77807"
+}
+},
+"partType": "3493",
+"parent": "M59QeiGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M6KR1iGt4UUheph8wXIm0W",
+"number": "G25017057-003[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77712"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77712"
+}
+},
+"partType": "3270",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M6l55CGt4UUheph8wXIm0W",
+"number": "G25017057-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77714"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77714"
+}
+},
+"partType": "1950",
+"parent": "M6KR1iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M6XzFCGt4UUheph8wXIm0W",
+"number": "G25017057-103[--]",
+"qty": 1,
+"string": null,
+"description": "BLOCK ASSY, FWD",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/77713"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/77713"
+}
+},
+"partType": "3493",
+"parent": "M6KR1iGt4UUheph8wXIm0W",
+"authority": "RV-503-873"
+},
+{
+"id": "M6yKniGt4UUheph8wXIm0W",
+"number": "G25016892-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/54900"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/54900"
+}
+},
+"partType": "3493",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "M79XvCGt4UUheph8wXIm0W",
+"number": "G25016891-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM, PADDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/54899"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/54899"
+}
+},
+"partType": "3493",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-502-132"
+},
+{
+"id": "M7a6oiGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "M7MqNCGt4UUheph8wXIm0W",
+"number": "G25013234-101[--]",
+"qty": 1,
+"string": null,
+"description": "FOAM",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/40565"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/40565"
+}
+},
+"partType": "3493",
+"parent": "M1}O3CGt4UUheph8wXIm0W",
+"authority": "RV-500-730"
+},
+{
+"id": "pE{I4iGt4UUheph8wXIm0W",
+"number": "G25028846-001[--]",
+"qty": 1,
+"string": "1050031-E001-D48-C03-SH",
+"description": "TABLE ASSY, DADO MOUNTED",
+"drawing": "G25028846",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90703"
+},
+"string": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/1050031-E001-D48-C03-SH"
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90703"
+}
+},
+"partType": "4750",
+"parent": "JwaWjiGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pF8DlCGt4UUheph8wXIm0W",
+"number": "G05250378-001[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/67533"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/67533"
+}
+},
+"partType": "2096",
+"parent": "pE{I4iGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "pFI8iiGt4UUheph8wXIm0W",
+"number": "G05250378-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/68145"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/68145"
+}
+},
+"partType": "1950",
+"parent": "pF8DlCGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "pFS8HCGt4UUheph8wXIm0W",
+"number": "G05250378-001SP02[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/68146"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/68146"
+}
+},
+"partType": "1950",
+"parent": "pF8DlCGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "pFc9NCGt4UUheph8wXIm0W",
+"number": "G25028848-001[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING INSTL, SQ, NO INLAY",
+"drawing": "G25028848",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90705"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90705"
+}
+},
+"partType": "1949",
+"parent": "pE{I4iGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pFm7QCGt4UUheph8wXIm0W",
+"number": "G25031676-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99174"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99174"
+}
+},
+"partType": "3493",
+"parent": "pFc9NCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pFwaRiGt4UUheph8wXIm0W",
+"number": "G25031675-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99173"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99173"
+}
+},
+"partType": "3493",
+"parent": "pFc9NCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pG52oCGt4UUheph8wXIm0W",
+"number": "G25028609-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89912"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89912"
+}
+},
+"partType": "3493",
+"parent": "pFc9NCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "pGF47CGt4UUheph8wXIm0W",
+"number": "G25031675-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99173"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99173"
+}
+},
+"partType": "3493",
+"parent": "pFc9NCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pGOo4CGt4UUheph8wXIm0W",
+"number": "G25028609-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89912"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89912"
+}
+},
+"partType": "3493",
+"parent": "pFc9NCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "pGYnICGt4UUheph8wXIm0W",
+"number": "G25028848-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25028848",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/96694"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/96694"
+}
+},
+"partType": "1950",
+"parent": "pFc9NCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pHG6nCGt4UUheph8wXIm0W",
+"number": "G25028846-001[--]",
+"qty": 1,
+"string": "1050031-E001-D48-C03-SH",
+"description": "TABLE ASSY, DADO MOUNTED",
+"drawing": "G25028846",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90703"
+},
+"string": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/1050031-E001-D48-C03-SH"
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90703"
+}
+},
+"partType": "4750",
+"parent": "JwaWjiGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pHQLECGt4UUheph8wXIm0W",
+"number": "G05250378-001[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/67533"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/67533"
+}
+},
+"partType": "2096",
+"parent": "pHG6nCGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "pHamBCGt4UUheph8wXIm0W",
+"number": "G05250378-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/68145"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/68145"
+}
+},
+"partType": "1950",
+"parent": "pHQLECGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "pHn8wCGt4UUheph8wXIm0W",
+"number": "G05250378-001SP02[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL, MEDIUM DADO TABLE, CURVED",
+"drawing": "G05250378",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/68146"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/68146"
+}
+},
+"partType": "1950",
+"parent": "pHQLECGt4UUheph8wXIm0W",
+"authority": "RV-502-813"
+},
+{
+"id": "pI0GVCGt4UUheph8wXIm0W",
+"number": "G25028848-001[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING INSTL, SQ, NO INLAY",
+"drawing": "G25028848",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/90705"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/90705"
+}
+},
+"partType": "1949",
+"parent": "pHG6nCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pIB5JCGt4UUheph8wXIm0W",
+"number": "G25031676-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99174"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99174"
+}
+},
+"partType": "3493",
+"parent": "pI0GVCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pIj8wCGt4UUheph8wXIm0W",
+"number": "G25031675-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99173"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99173"
+}
+},
+"partType": "3493",
+"parent": "pI0GVCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pILATCGt4UUheph8wXIm0W",
+"number": "G25031675-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/99173"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/99173"
+}
+},
+"partType": "3493",
+"parent": "pI0GVCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "pIsyQCGt4UUheph8wXIm0W",
+"number": "G25028609-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89912"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89912"
+}
+},
+"partType": "3493",
+"parent": "pI0GVCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "pIYqcCGt4UUheph8wXIm0W",
+"number": "G25028609-101[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/89912"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/89912"
+}
+},
+"partType": "3493",
+"parent": "pI0GVCGt4UUheph8wXIm0W",
+"authority": "RV-505-107"
+},
+{
+"id": "pJ0okCGt4UUheph8wXIm0W",
+"number": "G25028848-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25028848",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/96694"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/96694"
+}
+},
+"partType": "1950",
+"parent": "pI0GVCGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "wNkaKiGt4UUheph8wXIm0W",
+"number": "G25028853-001[-A]",
+"qty": 1,
+"string": null,
+"description": "EXTENSION ASSY, CONFERENCE TABLE, ANGLED",
+"drawing": "G25028853",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/113629"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/113629"
+}
+},
+"partType": "4750",
+"parent": "JwaWjiGt4UUheph8wXIm0W",
+"authority": "RV-506-212"
+},
+{
+"id": "wNv9oCGt4UUheph8wXIm0W",
+"number": "G25028642-003[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING INSTL, SQUARE",
+"drawing": "G25028642",
+"revision": "-A",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/112527"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/112527"
+}
+},
+"partType": "1949",
+"parent": "wNkaKiGt4UUheph8wXIm0W",
+"authority": "RV-507-083"
+},
+{
+"id": "wO6kViGt4UUheph8wXIm0W",
+"number": "G25022564-103[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/104504"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/104504"
+}
+},
+"partType": "3493",
+"parent": "wNv9oCGt4UUheph8wXIm0W",
+"authority": "RV-507-082"
+},
+{
+"id": "wOHpeiGt4UUheph8wXIm0W",
+"number": "G25028617-103[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/112526"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/112526"
+}
+},
+"partType": "3493",
+"parent": "wNv9oCGt4UUheph8wXIm0W",
+"authority": "RV-507-083"
+},
+{
+"id": "wOSCmCGt4UUheph8wXIm0W",
+"number": "G25028617-103[--]",
+"qty": 1,
+"string": null,
+"description": "MOLDING",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/112526"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/112526"
+}
+},
+"partType": "3493",
+"parent": "wNv9oCGt4UUheph8wXIm0W",
+"authority": "RV-507-083"
+},
+{
+"id": "wOcJjCGt4UUheph8wXIm0W",
+"number": "G25022556-003[--]",
+"qty": 1,
+"string": null,
+"description": "SHELL ASSY",
+"drawing": "G25022556",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/104507"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/104507"
+}
+},
+"partType": "1949",
+"parent": "wNkaKiGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wOnRdiGt4UUheph8wXIm0W",
+"number": "G25023450-001[--]",
+"qty": 1,
+"string": null,
+"description": "PLATE INSTL",
+"drawing": "G25023450",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/72108"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/72108"
+}
+},
+"partType": "1949",
+"parent": "wOcJjCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wO}nUCGt4UUheph8wXIm0W",
+"number": "G25023996-101[--]",
+"qty": 1,
+"string": null,
+"description": "PLATE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/74020"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/74020"
+}
+},
+"partType": "3493",
+"parent": "wOnRdiGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wPE2rCGt4UUheph8wXIm0W",
+"number": "G25023450-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25023450",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/72109"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/72109"
+}
+},
+"partType": "1950",
+"parent": "wOnRdiGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wPSa5iGt4UUheph8wXIm0W",
+"number": "G25023452-101[--]",
+"qty": 1,
+"string": null,
+"description": "PLATE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/72111"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/72111"
+}
+},
+"partType": "3493",
+"parent": "wOnRdiGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wPikqCGt4UUheph8wXIm0W",
+"number": "G25023450-001[--]",
+"qty": 1,
+"string": null,
+"description": "PLATE INSTL",
+"drawing": "G25023450",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/72108"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/72108"
+}
+},
+"partType": "1949",
+"parent": "wOcJjCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wPz7}iGt4UUheph8wXIm0W",
+"number": "G25023996-101[--]",
+"qty": 1,
+"string": null,
+"description": "PLATE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/74020"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/74020"
+}
+},
+"partType": "3493",
+"parent": "wPikqCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wQBa1CGt4UUheph8wXIm0W",
+"number": "G25023450-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25023450",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/72109"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/72109"
+}
+},
+"partType": "1950",
+"parent": "wPikqCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wQPwkiGt4UUheph8wXIm0W",
+"number": "G25023452-101[--]",
+"qty": 1,
+"string": null,
+"description": "PLATE",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/72111"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/72111"
+}
+},
+"partType": "3493",
+"parent": "wPikqCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wQe9biGt4UUheph8wXIm0W",
+"number": "G25022558-001[--]",
+"qty": 1,
+"string": null,
+"description": "PLUG INSTL",
+"drawing": "G25022558",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/69112"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/69112"
+}
+},
+"partType": "1949",
+"parent": "wOcJjCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wQsNqiGt4UUheph8wXIm0W",
+"number": "G25023995-101[--]",
+"qty": 1,
+"string": null,
+"description": "PLUG",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/74019"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/74019"
+}
+},
+"partType": "3493",
+"parent": "wQe9biGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wR4Z3CGt4UUheph8wXIm0W",
+"number": "G25022558-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25022558",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/74273"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/74273"
+}
+},
+"partType": "1950",
+"parent": "wQe9biGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wRJ5wCGt4UUheph8wXIm0W",
+"number": "G25024366-101[--]",
+"qty": 1,
+"string": null,
+"description": "WASHER",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/75443"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/75443"
+}
+},
+"partType": "3493",
+"parent": "wQe9biGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wRXfKCGt4UUheph8wXIm0W",
+"number": "G25022558-001[--]",
+"qty": 1,
+"string": null,
+"description": "PLUG INSTL",
+"drawing": "G25022558",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/69112"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/69112"
+}
+},
+"partType": "1949",
+"parent": "wOcJjCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wRlphiGt4UUheph8wXIm0W",
+"number": "G25023995-101[--]",
+"qty": 1,
+"string": null,
+"description": "PLUG",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/74019"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/74019"
+}
+},
+"partType": "3493",
+"parent": "wRXfKCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wRyAgCGt4UUheph8wXIm0W",
+"number": "G25022558-001SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": "G25022558",
+"revision": "--",
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/74273"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"revision": {
+"rightClick": "http://sapd0701.ca.aero.bombardier.net:8000/sap/bc/gui/sap/its/webgui?=&~transaction=CV04N"
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/74273"
+}
+},
+"partType": "1950",
+"parent": "wRXfKCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wS7MZiGt4UUheph8wXIm0W",
+"number": "G25024366-101[--]",
+"qty": 1,
+"string": null,
+"description": "WASHER",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/75443"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/75443"
+}
+},
+"partType": "3493",
+"parent": "wRXfKCGt4UUheph8wXIm0W",
+"authority": "RV-503-468"
+},
+{
+"id": "wSHuJiGt4UUheph8wXIm0W",
+"number": "G25022560-003[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL ASSY",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/104500"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/104500"
+}
+},
+"partType": "3270",
+"parent": "wOcJjCGt4UUheph8wXIm0W",
+"authority": "RV-507-082"
+},
+{
+"id": "wScdJCGt4UUheph8wXIm0W",
+"number": "G25022560-003SP01[--]",
+"qty": 1,
+"string": null,
+"description": "COLLECTOR, SP",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/104502"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/104502"
+}
+},
+"partType": "1950",
+"parent": "wSHuJiGt4UUheph8wXIm0W",
+"authority": "RV-507-082"
+},
+{
+"id": "wSS8ICGt4UUheph8wXIm0W",
+"number": "G25022560-103[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/104501"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/104501"
+}
+},
+"partType": "3493",
+"parent": "wSHuJiGt4UUheph8wXIm0W",
+"authority": "RV-507-082"
+},
+{
+"id": "wSmfmiGt4UUheph8wXIm0W",
+"number": "G25022559-103[--]",
+"qty": 1,
+"string": null,
+"description": "PANEL",
+"drawing": null,
+"revision": null,
+"status": {
+"number": {
+"assignment": "NOTASSIGNED"
+},
+"string": {
+"assignment": null
+},
+"drawing": {
+"assignment": "NOTASSIGNED"
+},
+"revision": {
+"assignment": "NOTASSIGNED"
+}
+},
+"links": {
+"number": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/104499"
+},
+"string": {
+"rightClick": null
+},
+"drawing": {
+"rightClick": null
+},
+"revision": {
+"rightClick": null
+},
+"authority": {
+"rightClick": "https://bdi.ca.aero.bombardier.net/icms/authority/104499"
+}
+},
+"partType": "3493",
+"parent": "wOcJjCGt4UUheph8wXIm0W",
+"authority": "RV-507-082"
+}
+]

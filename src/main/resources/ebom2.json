@@ -1,0 +1,1022 @@
+
+   [
+    {
+      "id": "1",
+      "number": "G25022555-001",
+      "qty": 10,
+      "string": "test1",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "links": {
+        "drawing": {
+          "rightClick": "http://sapurl"
+        },
+        "string": {
+          "rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/"
+        },
+        "authority": { "rightClick": "http://bdiauthority" },
+        "number": {
+          "rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/"
+        }
+      },
+      "revision": "[001]",
+      "authority": "RV-504-608 A",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.1",
+      "number": "G25022555-002",
+      "qty": 0,
+      "string": "test2",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "revision": "[005]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "ASSIGNED" }
+      }
+    },
+    {
+      "id": "1.2",
+      "number": "G25022555-003",
+      "qty": 0,
+      "string": "test3",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.3",
+      "number": "G25022555-004",
+      "qty": 1,
+      "string": "test4",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.4",
+      "number": "G25022555-005",
+      "qty": 1,
+      "string": "test5",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "revision": "[002]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.5",
+      "number": "G25022555-006",
+      "qty": 1,
+      "string": "test6",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6",
+      "number": "G25022555-007",
+      "qty": 1,
+      "string": "test7",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.1",
+      "number": "G25022555-008",
+      "qty": 1,
+      "string": "test8",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.2",
+      "number": "G25022555-009",
+      "qty": 1,
+      "string": "test9",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.3",
+      "number": "G25022555-010",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "ASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.4",
+      "number": "G25022555-011",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.4.1",
+      "number": "G25022555-012",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6.4",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.4.2",
+      "number": "G25022555-013",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6.4",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "TOBEASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.6.5",
+      "number": "G25022555-014",
+      "qty": 0,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.6",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.7",
+      "number": "G25022555-015",
+      "qty": 0,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.8",
+      "number": "G25022555-016",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.9",
+      "number": "G25022555-017",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.10",
+      "number": "G25022555-018",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.10.1",
+      "number": "G25022555-019",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.10.2",
+      "number": "G25022555-020",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.10.3",
+      "number": "G25022555-021",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.10.4",
+      "number": "G25022555-022",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.10.5",
+      "number": "G25022555-023",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.11",
+      "number": "G25022555-024",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.12",
+      "number": "G25022555-025",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.13",
+      "number": "G25022555-026",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.14",
+      "number": "G25022555-027",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.15",
+      "number": "G25022555-028",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.16",
+      "number": "G25022555-029",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "1.17",
+      "number": "G25022555-030",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "1",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        {
+      "id": "2",
+      "number": "G25022555-001",
+      "qty": 10,
+      "string": "test1",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "links": {
+        "drawing": {
+          "rightClick": "http://sapurl"
+        },
+        "string": {
+          "rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/"
+        },
+        "authority": { "rightClick": "http://bdiauthority" },
+        "number": {
+          "rightClick": "https://bdi.ca.aero.bombardier.net/ebom/part/"
+        }
+      },
+      "revision": "[001]",
+      "authority": "RV-504-608 A",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.1",
+      "number": "G25022555-002",
+      "qty": 0,
+      "string": "test2",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "revision": "[005]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "ASSIGNED" }
+      }
+    },
+    {
+      "id": "2.2",
+      "number": "G25022555-003",
+      "qty": 0,
+      "string": "test3",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.3",
+      "number": "G25022555-004",
+      "qty": 1,
+      "string": "test4",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.4",
+      "number": "G25022555-005",
+      "qty": 1,
+      "string": "test5",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "revision": "[002]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.5",
+      "number": "G25022555-006",
+      "qty": 1,
+      "string": "test6",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6",
+      "number": "G25022555-007",
+      "qty": 1,
+      "string": "test7",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.1",
+      "number": "G25022555-008",
+      "qty": 1,
+      "string": "test8",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.2",
+      "number": "G25022555-009",
+      "qty": 1,
+      "string": "test9",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.3",
+      "number": "G25022555-010",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "ASSIGNED" },
+        "string": { "assignment": "ASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.4",
+      "number": "G25022555-011",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.4.1",
+      "number": "G25022555-012",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6.4",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.4.2",
+      "number": "G25022555-013",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6.4",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "TOBEASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.6.5",
+      "number": "G25022555-014",
+      "qty": 0,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.6",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.7",
+      "number": "G25022555-015",
+      "qty": 0,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "ASSIGNED" },
+        "number": { "assignment": "ASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.8",
+      "number": "G25022555-016",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.9",
+      "number": "G25022555-017",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.10",
+      "number": "G25022555-018",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.10.1",
+      "number": "G25022555-019",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.10.2",
+      "number": "G25022555-020",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.10.3",
+      "number": "G25022555-021",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.10.4",
+      "number": "G25022555-022",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.10.5",
+      "number": "G25022555-023",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2.10",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.11",
+      "number": "G25022555-024",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.12",
+      "number": "G25022555-025",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.13",
+      "number": "G25022555-026",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.14",
+      "number": "G25022555-027",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.15",
+      "number": "G25022555-028",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.16",
+      "number": "G25022555-029",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    },
+    {
+      "id": "2.17",
+      "number": "G25022555-030",
+      "qty": 1,
+      "string": "",
+      "description": "EXTENSION ASSY, CON",
+      "drawing": "G25022555 [ A ]",
+      "authority": "RV-504-608 A",
+      "parent": "2",
+      "status": {
+        "drawing": { "assignment": "NOTASSIGNED" },
+        "number": { "assignment": "NOTASSIGNED" },
+        "revision": { "assignment": "NOTASSIGNED" },
+        "string": { "assignment": "NOTASSIGNED" }
+      }
+    }
+    
+    
+  ]
+

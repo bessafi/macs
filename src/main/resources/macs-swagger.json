@@ -1,0 +1,1844 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "MACS UI rest api endpoints definition.",
+    "version": "0.0.7",
+    "title": "MACS REST API",
+    "contact": {
+      "email": "macs_support@aero.bombardier.com"
+    }
+  },
+  "host": "macs-dev.ca.aero.bombardier.net",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "workspaces",
+      "description":
+        "Operations to get global lists of projects, sectors, subsectors."
+    },
+    {
+      "name": "ebom",
+      "description":
+        "Operations to fetch ebom parts and update quantities and status."
+    },
+    {
+      "name": "mbom",
+      "description": "Operations to manage workcenters, cahiers and jalons."
+    }
+  ],
+  "schemes": ["https"],
+  "paths": {
+    "/workspaces": {
+      "get": {
+        "tags": ["workspaces"],
+        "summary":
+          "Get list of projects, sectors, subsectors. The data comes ONLY from PI.",
+        "description":
+          "Get list of projects, sectors, subsectors. The data comes ONLY from PI.",
+        "operationId": "getWorkspaces",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/Workspaces"
+            }
+          },
+          "400": {
+            "description": "Invalid request. Expects no parameters."
+          }
+        }
+      }
+    },
+    "/ebom/{projectId}/{sectorId}/{subSectorId}": {
+      "get": {
+        "tags": ["ebom"],
+        "summary": "Fetch ebom data.",
+        "description":
+          "Fetch ebom table based on specified workspace parameters. The API returned the list of parts that is the merged operation of a) Getting the list of parts from PI and B) Merge the status and quantity (only display remaining qty) with WIP for that PSS (project,sector,subsector).",
+        "operationId": "getPartsByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subsector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "partId",
+            "description":
+              "If set, this limits the search to the provided list of part IDs",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Part"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      },
+      "put": {
+        "tags": ["ebom"],
+        "summary":
+          "Update parts status on ebom parts. Only update status. Does not update qty or any other field.",
+        "description": "",
+        "operationId": "updatePartsByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subsector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Updated quantities and status for provided parts",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Part"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "Part(s) not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/ebom/{projectId}/{sectorId}": {
+      "get": {
+        "tags": ["ebom"],
+        "summary":
+          "Fetch ebom table based on specified workspace parameters. NOT USED IN THIS PHASE.",
+        "description":
+          "Fetch ebom table based on specified workspace parameters.",
+        "operationId": "getPartsByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "partId",
+            "description":
+              "If set, this limits the search to the provided list of part IDs",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Part"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      },
+      "put": {
+        "tags": ["ebom"],
+        "summary":
+          "Update parts statuses on ebom part. NOT USED IN THIS PHASE.",
+        "description": "",
+        "operationId": "updatePartsByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Updated quantities and status for provided parts",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Part"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "Part(s) not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/ebom/{projectId}": {
+      "get": {
+        "tags": ["ebom"],
+        "summary":
+          "Fetch ebom table based on specified workspace parameters. The API returned the list of parts that is the merged operation of a) Getting the list of parts from PI and B) Merge the status and quantity (only display remaining qty) with WIP for that PSS (project,sector,subsector). Only check WIP data based on project ID for all sectors and subsectors.",
+        "description":
+          "Fetch ebom table based on specified workspace parameters.",
+        "operationId": "getPartsByProject",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Part"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}": {
+      "get": {
+        "tags": ["mbom"],
+        "summary":
+          "Fetch mbom (cahiers and workcenters) based on specified workspace.",
+        "description":
+          "Fetch mbom (cahiers and workcenters) based on specified workspace.",
+        "operationId": "getMomByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subsector",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "workCenters": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/WorkCenter"
+                  }
+                },
+                "cahiers": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/Cahier"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}": {
+      "get": {
+        "tags": ["mbom"],
+        "summary":
+          "Fetch mbom (cahiers and workcenters) based on specified workspace. NOT USED IN THIS PHASE.",
+        "description":
+          "Fetch mbom (cahiers and workcenters) based on specified workspace.",
+        "operationId": "getMomByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "workCenters": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/WorkCenter"
+                  }
+                },
+                "cahiers": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/Cahier"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}/workCenters": {
+      "get": {
+        "tags": ["mbom"],
+        "summary": "Fetch provided list of workCenters.",
+        "description":
+          "Fetch provided list of workCenters. Parts are to be put in the workcenter but not assigned to a cahier. Cahiers returns the list of cahiers in the workcenter but not within a Jalon. Jalons returns the list of cahiers within that Jalon.",
+        "operationId": "getWorkCentersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subsector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "wcId",
+            "required": true,
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenter"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      },
+      "put": {
+        "tags": ["mbom"],
+        "summary": "Update workCenters",
+        "description":
+          "Put adds the part(s) received as input to the workcenter. If parts are not available at source a validation exception is returned (405). In the context of a cahier being moved from one workcenter to the other links an existing cahier to the current workspace. If cahier doesn't exist return a 404. If cahiers are not available at source a validation exception is returned (405). If Jalons is present the action is to assign the cahiers to the jalon. If jalons.cahiers are not available at source a validation exception is returned (405). Flags in cahiers and jalons.cahiers are ignored.",
+        "operationId": "updateWorkCentersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description":
+              "Updated parts, cahiers and jalons for provided workCenters",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenter"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "WorkCenter(s) not found"
+          },
+          "405": {
+            "description": "Validation exception."
+          }
+        }
+      },
+      "delete": {
+        "tags": ["mbom"],
+        "summary": "Update workCenters",
+        "description":
+          "Delete part(s) from the workcenter unassigned list of the parts (return to ebom: ie review qty and status on ebom). If parts are not available a validation exception is returned (405). cahiers objects and jalons objects are ignored.",
+        "operationId": "deleteWorkCentersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description":
+              "Updated parts, cahiers and jalons for provided workCenters",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenter"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "WorkCenter(s) not found"
+          },
+          "405": {
+            "description": "Validation exception."
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}/cahiers": {
+      "get": {
+        "tags": ["mbom"],
+        "summary": "Fetch provided list of cahiers.",
+        "description":
+          "Fetch provided list of cahiers including parts within the cahiers.",
+        "operationId": "getCahiersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subsector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "cahierId",
+            "required": true,
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      },
+      "put": {
+        "tags": ["mbom"],
+        "summary": "Update cahiers.",
+        "description":
+          "information.wcId is MANDATORY. Update cahiers fields with the new values passed for fields and information attributes. If parts object is present this parts are associated to the cahier and that cahier workcenter. If cahier doesn't exist anymore in that workcenter a 405 is returned. If part does not exist at source return a 405.",
+        "operationId": "updateCahiersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Updated Cahiers",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "Cahier(s) not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      },
+      "post": {
+        "tags": ["mbom"],
+        "summary": "Create cahiers",
+        "description": "",
+        "operationId": "createCahiersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "New Cahiers",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns initial objects with generated ids",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          },
+          "405": {
+            "description": "Invalid Input"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}/cahiers/{cahierId}": {
+      "delete": {
+        "tags": ["mbom"],
+        "summary": "Delete cahiers from wip.",
+        "description":
+          "Validates that cahier exists at the source using source and sourceid before deleting it. If cahier doesn't exist anymore in at the source a 405 is returned. If cahier exists it is deleted from wip (unlinked from workcenter and cahier is destroyed). If cahier contains parts those parts are moved back to the workcenter. (TODO confirm with business if we can only delete an empty cahier). The source must be either a workcenter or jalon.",
+        "operationId": "deleteCahiersByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "cahierId",
+            "in": "path",
+            "description": "ID of cahier to delete",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "in": "query",
+            "description": "source type.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sourceId",
+            "in": "query",
+            "description": "source id",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "Cahier(s) not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}/cahiers/{cahierId}/part": {
+      "post": {
+        "tags": ["mbom"],
+        "summary": "Part submitted through 'add part to cahier' form.",
+        "description":
+          "Parts submitted through 'add part to cahier' form can be of one of the following types: method, kit, dash, pièce action méthode, phantom. For method and kit, there is a new part item to be created in parts table. For the others, it is a customization on top of existing part items. Customizations parts and entirely new parts should not not appear in Ebom. Customized parts will appear in their original state in Ebom. Customizations are at workcenter/cahier level. Eventually when we add quantities, we might have the notion of a part's quantity being shared between 2 or more workcenter/cahiers, which each workcenter/cahier customization the part a different way.",
+        "operationId": "addCahierPartByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "cahierId",
+            "in": "path",
+            "description": "ID of cahier item will be added to",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "New part.",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenterPart"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns initial object with generated id",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenterPart"
+              }
+            }
+          },
+          "405": {
+            "description": "Invalid Input"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}/cahiers/{cahierId}/tool": {
+      "post": {
+        "tags": ["mbom"],
+        "summary": "Create cahier tool",
+        "description": "",
+        "operationId": "addCahierToolByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "cahierId",
+            "in": "path",
+            "description": "ID of cahier item will be added to",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "New Tool",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Tool"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns initial object with generated id",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Tool"
+              }
+            }
+          },
+          "405": {
+            "description": "Invalid Input"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/{subSectorId}/cahiers/{cahierId}/drawing": {
+      "post": {
+        "tags": ["mbom"],
+        "summary": "Create cahier drawing",
+        "description": "",
+        "operationId": "addCahierDrawingByProjectSectorSubSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "subSectorId",
+            "in": "path",
+            "description": "ID of subSector",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "cahierId",
+            "in": "path",
+            "description": "ID of cahier item will be added to",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "New Tool",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Drawing"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns initial object with generated id",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Drawing"
+              }
+            }
+          },
+          "405": {
+            "description": "Invalid Input"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/workCenters": {
+      "get": {
+        "tags": ["mbom"],
+        "summary": "Fetch provided list of workCenters. UNUSED",
+        "description": "Fetch provided list of workCenters.",
+        "operationId": "getWorkCentersByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "wcId",
+            "required": true,
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenter"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      },
+      "put": {
+        "tags": ["mbom"],
+        "summary": "Update workCenters. UNUSED",
+        "description": "UNUSED",
+        "operationId": "updateWorkCentersByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description":
+              "Updated parts, cahiers and jalons for provided workCenters",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WorkCenter"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "WorkCenter(s) not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/mbom/{projectId}/{sectorId}/cahiers": {
+      "get": {
+        "tags": ["mbom"],
+        "summary": "Fetch provided list of cahiers.UNUSED",
+        "description": "Fetch provided list of cahiers.",
+        "operationId": "getCahiersByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "cahierId",
+            "required": true,
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "404": {
+            "description": "No results"
+          }
+        }
+      },
+      "put": {
+        "tags": ["mbom"],
+        "summary": "Update cahiers. UNUSED",
+        "description": "",
+        "operationId": "updateCahiersByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Updated Cahiers",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "404": {
+            "description": "Cahier(s) not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      },
+      "post": {
+        "tags": ["mbom"],
+        "summary": "Create cahiers. Unused.",
+        "description": "Unused.",
+        "operationId": "createCahiersByProjectSector",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "description": "ID of project",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sectorId",
+            "in": "path",
+            "description": "ID of sector",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "New Cahiers",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cahier"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "405": {
+            "description": "Invalid Input"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Workspaces": {
+      "type": "object",
+      "required": ["projects", "sectors", "subSectors"],
+      "properties": {
+        "projects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "format": "int64"
+              },
+              "model": {
+                "type": "string"
+              },
+              "tail": {
+                "type": "string"
+              },
+              "pa": {
+                "type": "string"
+              },
+              "sqNo": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "sectors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "format": "int64"
+              },
+              "titleFR": {
+                "type": "string"
+              },
+              "titleEN": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "subSectors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "format": "int64"
+              },
+              "sectorId": {
+                "type": "integer",
+                "format": "int64"
+              },
+              "titleFR": {
+                "type": "string"
+              },
+              "titleEN": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Part": {
+      "type": "object",
+      "required": ["id", "qty", "status"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string",
+          "example": "G25022555-001"
+        },
+        "qty": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "string": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "drawing": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "string"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "parent": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "description": "For example this could be : TOP-ASSSEMBLY"
+        },
+        "status": {
+          "type": "object",
+          "description": "status based on which ebom colors are determined",
+          "properties": {
+            "number": {
+              "type": "object",
+              "properties": {
+                "assignment": {
+                  "type": "string",
+                  "enum": ["UNASSIGNED", "TOBEASSIGNED", "ASSIGNED"]
+                }
+              }
+            },
+            "string": {
+              "type": "object",
+              "properties": {
+                "assignment": {
+                  "type": "string",
+                  "enum": ["UNASSIGNED", "ASSIGNED"]
+                }
+              }
+            },
+            "drawing": {
+              "type": "object",
+              "properties": {
+                "assignment": {
+                  "type": "string",
+                  "enum": ["UNASSIGNED", "ASSIGNED"]
+                }
+              }
+            },
+            "revision": {
+              "type": "object",
+              "properties": {
+                "assignment": {
+                  "type": "string",
+                  "enum": ["UNASSIGNED", "ASSIGNED"]
+                }
+              }
+            }
+          }
+        },
+        "links": {
+          "type": "object",
+          "description": "external links",
+          "properties": {
+            "number": {
+              "type": "object",
+              "properties": {
+                "rightClick": {
+                  "type": "string"
+                }
+              }
+            },
+            "string": {
+              "type": "object",
+              "properties": {
+                "rightClick": {
+                  "type": "string"
+                }
+              }
+            },
+            "drawing": {
+              "type": "object",
+              "properties": {
+                "rightClick": {
+                  "type": "string"
+                }
+              }
+            },
+            "revision": {
+              "type": "object",
+              "properties": {
+                "rightClick": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "WorkCenter": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "title": {
+          "type": "string"
+        },
+        "source": {
+          "$ref": "#/definitions/Source"
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkCenterPart"
+          }
+        },
+        "cahiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkCenterCahier"
+          }
+        },
+        "jalons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Jalon"
+          }
+        }
+      }
+    },
+    "Cahier": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string",
+          "description": "Cahier unique name in SAP."
+        },
+        "source": {
+          "$ref": "#/definitions/Source"
+        },
+        "wcId": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "jalonId": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "information": {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "cahierDuration": {
+              "type": "string"
+            },
+            "effectivity": {
+              "type": "string"
+            },
+            "typeId": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "primaryJobTypeQty": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "secondaryJobType": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "secondaryJobTypeQty": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "fromBoard": {
+              "type": "boolean"
+            },
+            "pva": {
+              "type": "boolean"
+            },
+            "wireCut": {
+              "type": "boolean"
+            },
+            "edl": {
+              "type": "boolean"
+            }
+          }
+        },
+        "fields": {
+          "type": "object",
+          "properties": {
+            "productId": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "jobRoleId": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "methodId": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "typeId": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "number": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "flags": {
+              "type": "object",
+              "properties": {
+                "b": {
+                  "type": "boolean"
+                },
+                "r": {
+                  "type": "boolean"
+                },
+                "od": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkCenterPart"
+          }
+        },
+        "routing": {
+          "type": "object",
+          "properties": {
+            "drawings": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Drawing"
+              }
+            },
+            "tools": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Tool"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Drawing": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "number": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "string"
+        },
+        "effectivity": {
+          "type": "string"
+        },
+        "flagMethod": {
+          "type": "boolean"
+        },
+        "flagABCL": {
+          "type": "boolean"
+        }
+      }
+    },
+    "Tool": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "number": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "flagMethod": {
+          "type": "boolean"
+        },
+        "flagABCL": {
+          "type": "boolean"
+        }
+      }
+    },
+    "WorkCenterPart": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "qty": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["METHOD", "DASH", "KIT", "PAM", "PHANTOM"],
+          "description":
+            "If set, means the part was either customized or created using the 'add parts to cahier' dialog in the UI."
+        },
+        "createdFields": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "qty": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "drawing": {
+              "type": "string"
+            },
+            "revision": {
+              "type": "string"
+            }
+          },
+          "description":
+            "Only applies to types 'new/method' and 'kit'. This part is NOT in Ebom and its fields (number, description, quantity, drawing/revision) will be taken from this object instead."
+        },
+        "modifiedFields": {
+          "type": "object",
+          "properties": {
+            "numberHistory": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "descriptionHistory": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "qtyHistory": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int64"
+              }
+            },
+            "drawingHistory": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "revisionHistory": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "description":
+            "Only applies to types 'dash' and 'pièce action méthode'. Contains all saved versions of those parts in the form of 'field history' array for each field, with all arrays having same length, and a given index representing a revision, with latest revision being the last index."
+        },
+        "flagMethod": {
+          "type": "boolean"
+        },
+        "flagABCL": {
+          "type": "boolean"
+        },
+        "partList": {
+          "type": "array",
+          "description":
+            "Only used if 'type' is set to 'kit'. Array of part IDs. Those are the parts contained in the kit. Those parts will not be duplicated, if they are consumed in kit then they are not visible in cahier bom or workcenter unassigned list anymore.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkCenterPart"
+          }
+        }
+      }
+    },
+    "WorkCenterCahier": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "flags": {
+          "type": "object",
+          "properties": {
+            "b": {
+              "type": "boolean"
+            },
+            "r": {
+              "type": "boolean"
+            },
+            "od": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "Jalon": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "title": {
+          "type": "string"
+        },
+        "cahiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkCenterCahier"
+          }
+        }
+      }
+    },
+    "Source": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string",
+          "description":
+            "ebom or workcenter or cahier when used in the context of a part. Or workcenter and jalon when used in the context of a cahier."
+        },
+        "id": {
+          "type": "string",
+          "description":
+            "id of the workcenter or the cahier.. basically it is the id of the location"
+        }
+      }
+    }
+  }
+}
